@@ -1,7 +1,7 @@
 from program import Client, filters
 
 
-API_ID = "25006035"
+API_ID = "8196994557"
 API_HASH = "8ff4733c3bf0f52d2321ca2215fadd21"
 BOT_TOKEN = "8196994557:AAGw0-ZWF4LcqivO0qUs0_vfVdFS9yhk0vc"
 
