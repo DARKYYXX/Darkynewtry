@@ -15,13 +15,13 @@ Darky = Client(
 
 @darky.on_message(filters.command("start"))
 async def start_cmd(client, message):
-    await message.reply_text("must join this channel for sureshots https://t.me/DARKYxGIVEAWAY")
+    await message.reply_text("join all the channel")
 
 
 
 @darky.on_message(filters.command("help"))
 async def help_cmd(client, message):
-    await message.reply_text("must join this for hacks https://t.me/+prQ8IhRBLmZmODY1")
+    await message.reply_text("dm me for free hack and sureshot")
 
 
 print("Bot was Started")
