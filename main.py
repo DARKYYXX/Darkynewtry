@@ -13,14 +13,14 @@ Darky = Client(
 )
 
 
-@darky.on_message(filters.command("vip"))
-async def hacks_cmd(client, message):
+@darky.on_message(filters.command("start"))
+async def start_cmd(client, message):
     await message.reply_text("must join this channel for sureshots https://t.me/DARKYxGIVEAWAY")
 
 
 
-@darky.on_message(filters.command("HACKS"))
-async def HACKS_cmd(client, message):
+@darky.on_message(filters.command("help"))
+async def help_cmd(client, message):
     await message.reply_text("must join this for hacks https://t.me/+prQ8IhRBLmZmODY1")
 
 
